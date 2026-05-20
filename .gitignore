@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+outputs/
+checkpoints/
+*.pt
+*.pth
+
+# Raw public downloads can be large; regenerate them as needed.
+data/camels_us/raw/
+data/camels_us/attributes/
+
+# Safety rule: do not commit arbitrary spreadsheet data.
+# The selected public CAMELS-US subset below is intentionally unignored.
+data/**/*.xlsx
+!data/camels_us/selected/**/*.xlsx
+
+# Never commit proprietary or local case-study data.
+data/local/
+data/proprietary/
+data/xinan/
+data/xin_an/
+data/private/
+*Yuetan*
+*Wanggan*
+*Meixi*
+*Xinting*
+*Linxi*
+*Yuliang*
