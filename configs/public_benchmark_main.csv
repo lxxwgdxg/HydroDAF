@@ -1,0 +1,9 @@
+camels_group,role,gauge_id
+huc01,source,01013500
+huc01,target,01022500
+huc01,target,01144000
+huc01,target,01169000
+huc03,source,02472000
+huc03,target,02143040
+huc03,target,02198100
+huc03,target,02469800
